@@ -1,6 +1,6 @@
-import { ExperimentErrors } from 'lib/config/ExperimentErrors';
-import { AnalyticsProvider } from 'lib/providers';
-import { ExperimentProvider } from 'lib/providers';
+import { ExperimentErrors } from '../config/ExperimentErrors';
+import { AnalyticsProvider } from '../providers';
+import { ExperimentProvider } from '../providers';
 import React, { ReactNode, useEffect, useState } from 'react';
 import { Variant } from './Variant';
 

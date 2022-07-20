@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { Experiment } from './Experiment';
-import { ExperimentErrors } from 'lib/config/ExperimentErrors';
+import { ExperimentErrors } from '../config/ExperimentErrors';
 import { Variant } from './Variant';
 
 beforeEach(() => {
